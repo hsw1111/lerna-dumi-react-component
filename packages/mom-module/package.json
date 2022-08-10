@@ -1,0 +1,29 @@
+{
+  "name": "@zxy/mom-module",
+  "version": "0.0.1",
+  "description": "基础组件",
+  "author": "黄士文 <huangshiwen@boe.com.cn>",
+  "homepage": "https://github.com/hsw1111/lerna-dumi-react-component#readme",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "father-build"
+  },
+  "peerDependencies": {
+    "ppfish": "^1.7.6",
+    "react": "^16.x"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://cnpm.boe.com.cn/registry/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsw1111/lerna-dumi-react-component.git"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "antd": "^4.22.4"
+  }
+}
